@@ -1,0 +1,287 @@
+
+h1{ 
+    color: black;
+    font-style: italic;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 0%;
+    background-color: rgb(243, 148, 230);  
+    animation: cambiar 7s; /* infinite;*/
+    overflow: hidden;
+
+}
+@keyframes cambiar {
+    0% {margin-top: -50px;}
+    20% {margin-top: -50;}
+   /* 0% { margin-top: 0;}
+    20% {margin-top: 0;}
+    25% {margin-top: -40px;}
+    50% {margin-top: -40px;}
+    55%{margin-top: -80px;}
+    80%{margin-top: 80px;}
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+    100{margin-top: -40px;}*/
+}
+h2{
+     color: red;
+     text-align: center;
+     font-size: 150%;
+     font-family: "Grandstander";
+}
+.titulo{
+  width: 300px;
+  height: 40px;
+  font-size: 40 px;
+  font-weight: 40px;
+}
+
+.card-title
+{
+  font-family: "Grandstander";
+  font-weight: bold;
+  color: black;
+}
+.card-normal
+{
+    font-family: "Grandstander";
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+ }
+.div_header{   
+    flex-direction: column;     
+    transition-property: all;
+    animation: cambiar 5s; 
+}
+.div_header:hover{   
+   transform: scale(1.2, 1.2);
+      width: 140px;
+      height: 100%;
+      border-radius: 0.5rem;
+      padding: 6px;
+}
+body{    
+    background-image: url("../img/fondos-de-colores.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+nav {
+    padding: 8px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ul{ 
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+}
+/* 
+#container-tortas
+{
+  padding-top: 7em;
+}*/
+/*
+.col {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    object-fit :contain;
+}*/
+
+.cat {
+    height:300px;
+    width: 300px;
+   } 
+
+.button-list1 {
+    background-color : black;
+    animation-name: entrada-superior;
+    animation-duration: 3s; /*duracion*/
+    animation-iteration-count: 1; /*cantidad de veces que repite*/
+    animation-timing-function: ease-in-out;
+    animation-delay: 0,3s; /*tarda en empezar*/
+}
+.button-list2 {
+    animation-name: entrada-superior;
+    animation-duration: 3s; /*duracion*/
+    animation-iteration-count: 1; /*cantidad de veces que repite*/
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s; /*tarda en empezar*/
+}
+nav ul li a:hover {
+    border-bottom: solid 2px white;
+    color: white;
+  }
+/*
+.button-list:hover {/* todo lo que le pongo acá va a suceder cuando el mouse pase por encima del elemento
+    /*  transform: scale(2);
+      background-color: blueviolet;
+      animation-name: entrada-superior;
+      animation-duration: 2s; /*duracion
+      animation-iteration-count: 2; /*cantidad de veces que repite
+      animation-timing-function: ease-in-out;
+      animation-delay: 2s; 
+  }*/
+
+.contenedor-form{   
+    display: flex;
+    justify-content: space-around; 
+}
+.text-white{
+    color: white;
+    font-size: 150%;
+    background-color: black;        
+   /* border: 2px solid;*/
+    padding: 10px;
+    /*border-radius: 25px;*/
+}
+.text-black{
+    color: black;
+    font-style: bold;
+    font-size: 150%;
+}
+.text-white2{
+    color: white;
+    font-size: 100%
+}
+.text-normal{
+    font-style: oblique;
+    font-size: 110%;
+}
+.container-menu {
+    background-color:  black;
+    height: 50px; 
+    width: 100%;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+ .main-menu {
+    list-style-type: none;
+    margin: 0;  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+  }
+ .main-menu > li {
+    display: block;
+    position: relative;
+    padding: 23px 0px;
+    margin: 0px 30px;    
+}
+.form-group{
+    margin-bottom:1rem;
+}
+.contenedor{
+    border: solid 2pX red;
+    background-color: transparent;
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-rows:  1fr 1fr */
+    grid-column-gap: 70px;
+    grid-row-gap: 70px;
+    padding: 50px; /*distancia del contenedor a los itmes*/
+}
+.contenedor-fotos{    
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-direction: row;
+    border: 8px solid;
+    border-radius: 1.5625rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+.contenedor-fotos div {
+    width: 100px;
+    height: 100px;
+  }
+.contenedor-mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.a_footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+    padding: 1em;
+    justify-content: left;
+}
+.logoWhatsapp {
+    position: fixed;
+    bottom: 1vw;
+    right: 3vw;
+    color: white;
+    font-size: 200%;
+    background-color: black;  
+    padding: 10px;
+    border-radius: 25px;
+}  
+.parrafoWhatsapp a {
+    color: black;
+    opacity: 90%;
+    font-weight: 200;
+    border-radius: 10px;
+    border-width: 1px;
+    font-size: larger;
+    padding: 5px;
+    font-size: 150%;
+}
+.button {
+    padding: 8px 30px !important;
+    border: solid 2px #fff;
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.button:hover {
+    color: #fff;
+    background-color:  black;
+}
+
+@keyframes entrada-superior {
+    0%{transform: translateY(-400px);
+
+    }
+    100%[
+        transform: translateY(0);
+    ]
+}
+@media screen and (min-width: 320px) {    
+
+     nav {
+         background-color: transparent;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+     }
+}

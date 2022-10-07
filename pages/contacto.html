@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Contacto</title>
+
+    <!--Link de estilos BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../img/logo.JPG" width="80">
+        </div>
+    </header>
+    <nav>
+        <div class="container-menu">
+            <ul class="main-menu">
+                <li>
+                    <a class="text-white" href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a class="text-white" href="sobremi.html">Sobre Mi </a>
+                </li>
+
+                <li>
+                    <a class="text-white" href="productos.html">Productos</a>
+                </li>
+
+                <li>
+                    <a class="text-white" href="promociones.html">Promociones</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div>
+                <h1>¡Escribinos!</h1>
+            </div>
+
+            <div>
+                <h2>Para presupuestar tu evento, sugerencias o compartir tu experiencia </h2>
+            </div>
+
+            <div class="contenedor-form">
+                <form action="">
+                    <div class="form-group">
+                        <input class="button" type="name" name="Nombre" placeholder="Nombre y apellido">
+                    </div>
+                    <div class="form-group">
+                        <input class="button" type="email" name="email" placeholder="Ingresa tu Email">
+                    </div>
+                    <div class="form-group">
+
+                        <textarea class="button" name="mensaje" cols="30" rows="10"
+                            placeholder="Mensaje o Consulta"></textarea>
+                        <div>
+
+                            <input class="button" type="submit" value="Enviar">
+                            <input class="button" type="reset" value="Limpiar">
+
+
+                        </div>
+                </form>
+            </div>
+        </section>
+        <!-- Inicio Seccion FAQ -->
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="card-title"> Preguntas Frecuentes</h2>
+                </div>
+            </div>
+            <div class="accordion accordion-flush bg-transparent" id="accordionFlushExample">
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed pregunta bg-transparent" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            ¿Se reciben tarjetas de débito y crédito?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse bg-transparent"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body textoFaq">¡Si! Recibimos tarjetas Visa y Mastercard, débito y
+                            crédito.</div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed pregunta bg-transparent" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            ¿Con cuanto tiempo antes hay que realizar el pedido?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse bg-transparent"
+                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body textoFaq">Las reservas se realizan contactándonos por Instagram,
+                            o WhatsApp (preferentemente) y abonando una seña.</div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed pregunta bg-transparent" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                             ¿Se puede contratar solo el conjunto completo, torta, cookies y paletas?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse bg-transparent"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body textoFaq">Por supuesto, los personajes los elegis vos.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin Seccion FAQ -->
+
+        <!-- 
+        <section class="container">
+            <div>
+                <h2 class="card-title"> Preguntas Frecuentes</h2>
+            </div>
+
+            <div>
+                <div>
+                    <h2 class="card-normal">
+                        <button class="card-normal" type="button">
+                            ¿Se reciben tarjetas de débito y crédito?
+                        </button>
+                    </h2>
+                    <div class="card-normal">¡Si! Recibimos tarjetas Visa y Mastercard, débito y crédito.</div>
+                </div>
+
+                <div>
+                    <h2 class="card-normal">
+                        <button class="card-normal" type="button">
+                            ¿Con cuanto tiempo antes hay que realizar el pedido?
+                        </button>
+                    </h2>
+                    <div class="card-normal">Tenes un mínimo de una semana antes previo dejando una
+                        seña.
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="card-normal">
+                        <button class="card-normal" type="button">
+                            ¿Se puede contratar solo el conjunto completo, torta, cookies y paletas?
+                        </button>
+                    </h2>
+                    <div class="card-normal">Por supuesto, los personajes los elegis vos.
+                    </div>
+                </div>
+                <br>
+        </section>
+        -->
+        </section>
+        <footer class="footer">
+            <div>
+                <div>
+                    <div>
+                        <a class="a_footer" href="https://www.instagram.com/yocortartorta/" target="_blank">
+                            <img src="../img/instagram-00.png" width="30" height="30" alt="" />
+                            <p class="text-white2"> &nbsp;https://www.instagram.com/yocortartorta/</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="a_footer" href="mailto:yocortartorta@gmail.com">
+                            <img src="../img/correo.png" width="25" height="25" alt="" />
+                            <p class="text-white2">&nbsp;yocortartorta@gmail.com</p>
+
+                        </a>
+                        <div class="a_footer">
+                            <img src="../img/telefono.png" width="25" height="25" alt="" />
+                            <p class="text-white2">&nbsp;+54 (11) 15 5999-4043</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-white2">Todos los derechos reservados ©/ All rights reserved ©.</p>
+        </footer>
+    </main>
+    
+ <!--Link java script BS-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
