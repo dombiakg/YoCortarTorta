@@ -25,6 +25,7 @@ nav {
     align-items: center;
     font-size: 150%;
 }
+
 .navbar {
     padding: 8px !important;
     background-color: black !important;
@@ -32,7 +33,8 @@ nav {
 }
 
 .nav-link {
-    color: white !important;}
+    color: white !important;
+}
 
 . navbar-toggler {
     background-color: white !important;
@@ -113,6 +115,7 @@ nav ul li a {
     animation-timing-function: ease-in-out;
     animation-delay: 0, 3s;
 }
+
 .button-list2 {
     animation-name: entrada-superior;
     animation-duration: 3s;
@@ -120,6 +123,7 @@ nav ul li a {
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
 }
+
 nav ul li a:hover {
     border-bottom: solid 2px white;
     color: white;
@@ -149,6 +153,7 @@ nav ul li a:hover {
     font-style: oblique;
     font-size: 110%;
 }
+
 .container-menu {
     height: 50px;
     width: 100%;
@@ -165,7 +170,8 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
 }
-.main-menu>li {    
+
+.main-menu>li {
     position: relative;
     padding: 23px 0px;
     margin: 0px 30px;
@@ -180,11 +186,11 @@ nav ul li a:hover {
     background-color: transparent;
     display: grid;
     margin: 20px;
-    grid-template-columns: 1fr 1fr;    
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 70px;
     grid-row-gap: 70px;
     padding: 50px;
-    
+
 }
 
 .contenedor-fotos {
@@ -197,6 +203,7 @@ nav ul li a:hover {
     align-items: center;
     flex-wrap: wrap;
 }
+
 .contenedor-fotos div {
     width: 100px;
     height: 100px;
@@ -214,11 +221,13 @@ nav ul li a:hover {
     flex-direction: row;
     align-items: center;
 }
+
 .footer {
     background-color: black;
     padding: 1em;
     justify-content: left;
 }
+
 .logoWhatsapp {
     position: fixed;
     bottom: 1vw;
@@ -229,6 +238,7 @@ nav ul li a:hover {
     padding: 10px;
     border-radius: 25px;
 }
+
 .parrafoWhatsapp a {
     color: black;
     opacity: 90%;
@@ -239,6 +249,7 @@ nav ul li a:hover {
     padding: 5px;
     font-size: 150%;
 }
+
 .button {
     padding: 8px 30px !important;
     border: solid 2px #fff;
@@ -251,6 +262,7 @@ nav ul li a:hover {
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
+
 .button:hover {
     color: #fff;
     background-color: black;
@@ -270,6 +282,7 @@ nav ul li a:hover {
     0% {
         margin-top: -50px;
     }
+
     20% {
         margin-top: -50;
     }
@@ -283,7 +296,8 @@ nav ul li a:hover {
         align-items: flex-end;
         justify-content: space-between;
         font-size: 100%;
-    }   
+    }
+
     .main-menu {
         list-style-type: none;
         list-style: none;
@@ -294,6 +308,7 @@ nav ul li a:hover {
         color: black;
         font-style: bold;
     }
+
     .card-title {
         font-size: 100%;
     }
@@ -303,6 +318,7 @@ nav ul li a:hover {
     }
 
 }
+
 @media screen and (max-width: 425px) {
 
     nav {
@@ -326,6 +342,7 @@ nav ul li a:hover {
         margin: auto;
 
     }
+
     .contenedor-form img {
         width: 80vw;
 
@@ -344,11 +361,13 @@ nav ul li a:hover {
 
         font-size: 80%;
     }
+
     .card-title {
         font-size: 100%;
         font-weight: bold;
     }
 }
+
 @media screen and (max-width: 320px) {
     .contenedor {
         grid-template-columns: 1fr;
